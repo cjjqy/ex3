@@ -15,39 +15,151 @@
 			body>* {	
 				width:100%;			
 				min-width: 640px;
-				margin-top:5px;						
+				margin-top:5px;
 			}			
 			section{
 				flex:1;
 			}
 			.img{
-				width: 60%;
+				width: 100%;
+				height:100%;
 				position: fixed;  
 				top: 100px; 
-				position: relative;   
-			}
-			a:hover{
-				color: #FF0000;
-				text-decoration: underline;
-			}
-			a:hover{
-				opacity: 0.5;
+				position: relative;
 			}
 			.img1{
-				background-repeat:no-repeat;
-				background-size:cover;
-				padding: 10px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100vh;
+				background-image: url('img/background 1.jpg');
+				background-size: cover;
+				z-index: -1; 
+			}
+			.background{
+				position: absolute;
+				z-index: 1;
 			}
 			.container {  
-			    position: relative;  
-			  }  
+			    position: absolute;  
+			  }
+			.positioned-image {
+			    position: absolute;
+			    top: -1250px;
+			    left: -850px;
+				transform: scale(0.35);
+				opacity: 100%;
+				animation: fadeInOut 6s infinite; 
+				z-index: 1;
+			}
+			@keyframes fadeInOut {
+			    0%, 100% {
+			        opacity: 0; /* 透明度为0，完全透明 */
+			    }
+			    50% {
+			        opacity: 1; /* 透明度为1，完全不透明 */
+			    }
+			}
+			.image-container img:nth-child(2) {
+			    animation-delay: 5s; /* 第二张图片动画延迟0.5秒 */
+			}
+			 
+			.image-container img:nth-child(3) {
+			    animation-delay: 8s; /* 第三张图片动画延迟1秒 */
+			}
+			.image-container img:nth-child(5) {
+			     animation-delay: 15s; /* 第三张图片动画延迟1秒 */
+			}
+			.image-container img:nth-child(9) {
+			    animation-delay: 21s; /* 第三张图片动画延迟1秒 */
+			}
+			.image-container img:nth-child(15) {
+			    animation-delay: 25s; /* 第三张图片动画延迟1秒 */
+			}
+			.image-container img:nth-child(23) {
+			    animation-delay: 36s; /* 第三张图片动画延迟1秒 */
+			}
+			.image-container img:nth-child(32) {
+			    animation-delay: 32s; /* 第三张图片动画延迟1秒 */
+			}.image-container img:nth-child(40) {
+			    animation-delay: 23s; /* 第三张图片动画延迟1秒 */
+			}
+			.image-container img:nth-child(47) {
+			    animation-delay: 16s; /* 第三张图片动画延迟1秒 */
+			}
 		</style> 
 	</head>
 	<body>
-	<img class="img1" src="img/bq2.jpg"/>
-	<div  class="container" style="display: flex; justify-content: center; align-items: center; text-align: center;">
-		<a href="https://meaning-l.github.io/puyuanyuyinbao/" ><img class="img" src="img/bq1.jpg"  alt="Example Image"></a>  
+	<div class="container" style="display: flex; justify-content: center; align-items: center; text-align: center;">
+		<a href="https://zzwwhh128.github.io/puyuanfengmian/" ><img src="img/pu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/gu1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/chen 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/yan 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/yang 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/fu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/lei 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/yao 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/shi 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/bao 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/yue 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/zhong1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/xia 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。。1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/li 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/wang 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/zhou 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/di 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/xu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/huang 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。。。 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/zhong.png" alt="Sample Image" class="positioned-image">
+		<img src="img/dong 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/lin 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/jiang 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/shen 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/fang 1 (2).png" alt="Sample Image" class="positioned-image">
+		<img src="img/liu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/zhao 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/zhao 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。 4.png" alt="Sample Image" class="positioned-image">
+		<img src="img/guo 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/feng 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/liu 1 (2).png" alt="Sample Image" class="positioned-image">
+		<img src="img/cao 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/lin 1 (2).png" alt="Sample Image" class="positioned-image">
+		<img src="img/guan1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。5.png" alt="Sample Image" class="positioned-image">
+		<img src="img/peng1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/min 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/jia 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/cai 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/wang1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/cheng 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/ye 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/lu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/shang 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。6.png" alt="Sample Image" class="positioned-image">
+		<img src="img/fang 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/du 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/qiu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/lv 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/gong 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/wu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。7.png" alt="Sample Image" class="positioned-image">
+		<img src="img/tu 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/zou1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/yuan 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/meng 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/wei 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/han 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/fan 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/liao 1.png" alt="Sample Image" class="positioned-image">
+		<img src="img/。8.png" alt="Sample Image" class="positioned-image"></a>
+		<img class="img1" src="img/background 1.jpg"/>
 	</div>
+	
 	</body>
 
 </html>
